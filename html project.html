@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>workshop</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <navbar>home about work resume</navbar>
+    <div id="topOfThePage">
+      <p href="#">home</p>
+      <p href="#">services</p>
+      <p href="#">about</p>
+    </div>
     <br />
     <br />
 
-    <forms>
+    <forms class="forms">
       <label>about</label>
-      <input type="text" placeholder="write here" />
+      <input type="text" placeholder="write here"/>
       <br />
       <br />
       <label>work</label>
@@ -27,11 +32,13 @@
       <label>contact</label>
       <input type="text" />
     </forms>
-    <ol type="1">
+<center>
+    <ol class="listing" type="1">
       <li>name</li>
       <li>age</li>
       <li>address</li>
     </ol>
+</center>
     <ul type="dotted">
       <li>education</li>
       <input type="text" />
@@ -49,6 +56,21 @@
         </tr>
       </table>
     </ul>
-    
+    <audio controls>
+      <source src="/wisdom-of-the-mountains-13411.mp3" />
+    </audio>
+    <img src="/P1020239.JPG" />
+    <div>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/BzrC5mJJRvU"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <a href="#topOfThePage">top of page</a>
   </body>
 </html>
